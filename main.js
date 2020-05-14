@@ -1,5 +1,5 @@
 var map1 = new BMap.Map("map1");     
-	map1.centerAndZoom("北京",15);
+	map1.centerAndZoom("北京",10);
   map1.enableScrollWheelZoom(true); 
   var top_right_navigation = new BMap.NavigationControl({
       anchor: BMAP_ANCHOR_TOP_RIGHT, 
@@ -24,7 +24,7 @@ var map1 = new BMap.Map("map1");
   map1.addControl(geolocationControl1);  
 
   var map2 = new BMap.Map("map2");     
-	map2.centerAndZoom("上海",15);
+	map2.centerAndZoom("上海",10);
   map2.enableScrollWheelZoom(true);
   var top_right_navigation = new BMap.NavigationControl({
       anchor: BMAP_ANCHOR_TOP_RIGHT, 
@@ -49,7 +49,7 @@ var map1 = new BMap.Map("map1");
   map2.addControl(geolocationControl2); 
 
   var map3 = new BMap.Map("map3");     
-	map3.centerAndZoom("广州",15); 
+	map3.centerAndZoom("广州",10); 
   map3.enableScrollWheelZoom(true);
   var top_right_navigation = new BMap.NavigationControl({
       anchor: BMAP_ANCHOR_TOP_RIGHT, 
